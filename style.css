@@ -1,0 +1,111 @@
+/* ------------ Genral Style ------------- */
+
+* {
+  font-family: "Lustria", serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mb {
+  margin-bottom: 20vh;
+}
+.color-primary {
+  color: var(--primary);
+}
+:root {
+  --primary: #ff9900;
+  --head: #2f281e;
+  --parageraph: #544837;
+  --signin-btn-border: #bcd0e5;
+  --signin-btn-color: #173a56;
+}
+/* ------------ END Genral Style --------------- */
+
+/* ------------------------------------------------------------------------- */
+
+/* ----------------------- Buttoms -------------------------- */
+.sign-in-btn {
+  color: var(--signin-btn-color);
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--signin-btn-border);
+  padding: 8px 20px;
+}
+.sign-up-btn {
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  background: var(--primary);
+  padding: 8px 20px;
+}
+/* ------------------------- END buttoms ---------------------- */
+
+/* ------------------------------------------------------------------------- */
+
+/* --------------- Head hero section 1 ---------------- */
+.hero-sub-section h1 {
+  color: var(--head);
+  font-weight: bolder;
+  font-size: 44px;
+  line-height: 54px;
+}
+.hero-sub-section p {
+  font-weight: 400;
+  color: var(--parageraph);
+  font-size: 18px;
+  line-height: 28px;
+}
+/* ----------------- END head hero section 1 ---------- */
+
+/* ------------------------------------------------------------------------- */
+
+/* ------------------ For every Section ---------------------  */
+
+.section-p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--parageraph);
+  line-height: 26px;
+}
+
+.section-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--head);
+}
+
+.section-h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--head);
+  line-height: 26px;
+}
+/* ------------------- END for every section  ---------------------- */
+
+/* ------------------------------------------------------------------------- */
+
+/* --------------------- Overrided needed -------------------------- */
+
+span {
+  color: var(--parageraph);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+/* remove border */
+.card-need {
+  border-color: #fff;
+}
+
+.card-h5-need {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  line-height: 34px;
+}
+/* change color for a in footer */
+.list-need a {
+  color: var(--parageraph);
+}
+
+/* --------------------- END Overrided needed -------------------------- */
